@@ -1,0 +1,37 @@
+<?php
+return array (
+  1 => 
+  array (
+    'id' => '1',
+    'catid' => '7',
+    'typeid' => '0',
+    'title' => '微志愿下载',
+    'style' => '',
+    'thumb' => 'http://www.cyznj.com/uploadfile/2014/0429/20140429052358119.png',
+    'keywords' => '微志愿 下载',
+    'description' => '微志愿下载',
+    'posids' => '0',
+    'url' => 'http://www.cyznj.com/index.php?m=content&c=index&a=show&catid=7&id=1',
+    'listorder' => '0',
+    'status' => '99',
+    'sysadd' => '1',
+    'islink' => '0',
+    'username' => 'phpcms',
+    'inputtime' => '1398685870',
+    'updatetime' => '1400550624',
+    'systems' => 'Win2000/WinXP/Win2003,Linux,Unix',
+    'copytype' => '免费版',
+    'language' => '英文',
+    'classtype' => '国产软件',
+    'version' => '',
+    'filesize' => '未知',
+    'stars' => '★★★★☆',
+    'hitsid' => 'c-2-1',
+    'views' => '46',
+    'yesterdayviews' => '3',
+    'dayviews' => '1',
+    'weekviews' => '4',
+    'monthviews' => '30',
+  ),
+);
+?>

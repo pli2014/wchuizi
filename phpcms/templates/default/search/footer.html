@@ -1,0 +1,28 @@
+<div class="sr_footer">	  
+{pc:content action="category" catid="1" num="15" siteid="$siteid" order="listorder ASC"}
+{loop $data $r}
+<a href="{$r[url]}" target="_blank">{$r[catname]}</a> |  
+{/loop}
+{/pc}
+<a href="{APP_PATH}index.php?m=link" target="_blank">友情链接</a>
+
+<p class="info">
+<a href="http://www.cyznj.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=2" target="_blank">关于我们</a> |  
+<a href="http://www.cyznj.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=3" target="_blank">联系方式</a> |  
+<a href="http://www.cyznj.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=4" target="_blank">版权声明</a> |  
+<br>
+ <strong> © 2014 微锤子门户网站</strong><br>
+ <strong> 苏ICP备14020402号</strong>
+ <a href="http://www.zx110.org/ "><img src="/statics/images/zx110.png" border="0"></a>
+</p>
+/div>
+      </div>
+    </div>
+<!--[if IE 6]>
+<script type="text/javascript" src="{JS_PATH}nsz.js"></script>
+<script type="text/javascript">
+	nsz.fix('.sr_logo img');
+</script>
+<![endif]-->
+</body>
+</html>

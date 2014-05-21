@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+		<url>
+			<loc>http://www.cyznj.com</loc>
+			<lastmod>2014-05-17</lastmod>
+			<changefreq>daily</changefreq>
+			<priority>1.0</priority>
+		</url>
+
+		<url>
+			<loc>http://www.cyznj.com/index.php?m=content&amp;c=index&amp;a=show&amp;catid=6&amp;id=7</loc>
+			<lastmod>2014-05-17</lastmod>
+			<changefreq>weekly</changefreq>
+			<priority>0.7</priority>
+		</url>
+
+		<url>
+			<loc>http://www.cyznj.com/index.php?m=content&amp;c=index&amp;a=show&amp;catid=11&amp;id=6</loc>
+			<lastmod>2014-05-17</lastmod>
+			<changefreq>weekly</changefreq>
+			<priority>0.7</priority>
+		</url>
+
+		<url>
+			<loc>http://www.cyznj.com/index.php?m=content&amp;c=index&amp;a=show&amp;catid=9&amp;id=5</loc>
+			<lastmod>2014-05-17</lastmod>
+			<changefreq>weekly</changefreq>
+			<priority>0.7</priority>
+		</url>
+
+		<url>
+			<loc>http://www.cyznj.com/index.php?m=content&amp;c=index&amp;a=show&amp;catid=6&amp;id=3</loc>
+			<lastmod>2014-05-17</lastmod>
+			<changefreq>weekly</changefreq>
+			<priority>0.7</priority>
+		</url>
+
+		<url>
+			<loc>http://www.cyznj.com/index.php?m=content&amp;c=index&amp;a=show&amp;catid=6&amp;id=2</loc>
+			<lastmod>2014-05-17</lastmod>
+			<changefreq>weekly</changefreq>
+			<priority>0.7</priority>
+		</url>
+
+		<url>
+			<loc>http://www.cyznj.com/index.php?m=content&amp;c=index&amp;a=show&amp;catid=6&amp;id=1</loc>
+			<lastmod>2014-05-17</lastmod>
+			<changefreq>weekly</changefreq>
+			<priority>0.7</priority>
+		</url>
+
+		<url>
+			<loc>http://www.cyznj.com/index.php?m=content&amp;c=index&amp;a=show&amp;catid=7&amp;id=1</loc>
+			<lastmod>2014-05-17</lastmod>
+			<changefreq>weekly</changefreq>
+			<priority>0.7</priority>
+		</url>
+
+		<url>
+			<loc>http://www.cyznj.com/index.php?m=content&amp;c=index&amp;a=show&amp;catid=8&amp;id=1</loc>
+			<lastmod>2014-05-17</lastmod>
+			<changefreq>weekly</changefreq>
+			<priority>0.7</priority>
+		</url>
+
+	</urlset>
+
