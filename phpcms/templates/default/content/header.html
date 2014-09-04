@@ -9,13 +9,15 @@
 <meta property="qc:admins" content="152375340763126263757" />
 <meta name="keywords" content="{$SEO['keyword']}">
 <meta name="description" content="{$SEO['description']}">
+<meta name="baidu-site-verification" content="iDUxx08nV0" />
 <link href="{CSS_PATH}reset.css" rel="stylesheet" type="text/css" />
 <link href="{CSS_PATH}default_blue.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="{JS_PATH}jquery.min.js"></script>
 <script type="text/javascript" src="{JS_PATH}jquery.sgallery.js"></script>
 <script type="text/javascript" src="{JS_PATH}search_common.js"></script>
 </head>
-<body>
+<body style="background:transparent;width:1080px;margin:auto;position:relative">
+
 <div class="body-top">
     <div class="content">
     {pc:content  action="position" posid="9" order="id" num="10" cache="3600"}
@@ -32,15 +34,16 @@
 $(function(){
 	startmarquee('announ',22,1,500,3000);
 })
-</script>
+</script> 
+     <div class="login lh24 blue"><a href="{APP_PATH}index.php?m=content&c=rss&siteid={get_siteid()}" class="rss ib">rss</a></div>
     </div>
 </div>
+
+<div class="header">
        <div class="banner">
-          <img style="width:100%;height:320px" src="{IMG_PATH}/v9/cyznj_background.jpg"/>
+          <img style="min-width:960px;margin:auto;width:100%;height:320px" src="{IMG_PATH}/v9/cyznj_background.jpg"/>
        </div>
 
-<div class="header"> 
- 
 	<div class="logo" style="margin-top:50px"><a href="{siteurl($siteid)}/"><img src="{IMG_PATH}v9/chuizi.png" style="width:120px;height:70px"/></a></div>
 
     <div class="search" style="margin-top:50px">
@@ -62,6 +65,8 @@ $(function(){
 				<input type="hidden" name="typeid" value="{$typeid}" id="typeid"/>
 				<input type="hidden" name="siteid" value="{$siteid}" id="siteid"/>
                 <input type="text" class="text" name="q" id="q"/><input type="submit" value="搜 索" class="button" />
+               <img style="margin-top:50x;width:100%;height:35px" src="{IMG_PATH}/v9/zuohuiziji.jpg"/>
+
             </form>
         </div>
     </div>
@@ -69,6 +74,7 @@ $(function(){
     <div class="banner">
 	<script language="javascript" src="{APP_PATH}index.php?m=poster&c=index&a=show_poster&id=12"></script>
 	<script language="javascript" src="{APP_PATH}index.php?m=poster&c=index&a=show_poster&id=13"></script>
+        {show_ad(1, 16)}
     </div>
     <div class="nav-bar"> 
     	<map>

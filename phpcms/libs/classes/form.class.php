@@ -108,7 +108,7 @@ class form {
 			$str = '<script type="text/javascript" src="'.JS_PATH.'swfupload/swf2ckeditor.js"></script>';
 			define('IMAGES_INIT', 1);
 		}
-		$value = new_htmlentities($value);
+		$value = new_html_special_chars($value);
 		$authkey = upload_key("1,$alowexts,1,$thumb_ext,$watermark_setting");
 		return $str."<input type=\"text\" name=\"$name\" id=\"$id\" value=\"$value\" size=\"$size\" class=\"$class\" $ext/>  <input type=\"button\" class=\"button\" onclick=\"javascript:flashupload('{$id}_images', '".L('attachmentupload')."','{$id}',submit_images,'1,{$alowexts},1,{$thumb_ext},{$watermark_setting}','{$moudle}','{$catid}','{$authkey}')\"/ value=\"".L('imagesupload')."\">";
 	}

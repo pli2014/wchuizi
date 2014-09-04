@@ -1,4 +1,5 @@
 <?php
+set_time_limit(300);
 defined('IN_PHPCMS') or exit('No permission resources.');
 //模型缓存路径
 define('CACHE_MODEL_PATH',CACHE_PATH.'caches_model'.DIRECTORY_SEPARATOR.'caches_data'.DIRECTORY_SEPARATOR);

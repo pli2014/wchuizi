@@ -311,20 +311,6 @@ return array (
     'installdate' => '2010-09-15',
     'updatedate' => '2010-09-15',
   ),
-  'announce' => 
-  array (
-    'module' => 'announce',
-    'name' => '公告',
-    'url' => 'announce/',
-    'iscore' => '0',
-    'version' => '1.0',
-    'description' => '公告',
-    'setting' => '',
-    'listorder' => '0',
-    'disabled' => '0',
-    'installdate' => '2014-04-28',
-    'updatedate' => '2014-04-28',
-  ),
   'comment' => 
   array (
     'module' => 'comment',
@@ -415,6 +401,20 @@ return array (
     'disabled' => '0',
     'installdate' => '2010-10-20',
     'updatedate' => '2010-10-20',
+  ),
+  'mood' => 
+  array (
+    'module' => 'mood',
+    'name' => '新闻心情',
+    'url' => 'mood/',
+    'iscore' => '0',
+    'version' => '1.0',
+    'description' => '新闻心情',
+    'setting' => '',
+    'listorder' => '0',
+    'disabled' => '0',
+    'installdate' => '2014-08-30',
+    'updatedate' => '2014-08-30',
   ),
   'wap' => 
   array (

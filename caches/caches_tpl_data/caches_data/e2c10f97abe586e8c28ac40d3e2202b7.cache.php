@@ -1,26 +1,16 @@
 <?php
 return array (
-  '17-3' => 
+  '11-6' => 
   array (
-    'title' => '舌尖上的中国 第二季：相逢',
-    'description' => '舌尖上 相逢',
-    'inputtime' => '1400383924',
+    'title' => '帮助别人，快乐自己',
+    'description' => '桐城区青腾小软件工作室   ',
+    'thumb' => 'http://www.cyznj.com/uploadfile/2014/0712/20140712032910166.jpg',
+    'inputtime' => '1400303885',
     'style' => '',
-    'url' => 'http://www.cyznj.com/index.php?m=content&c=index&a=show&catid=17&id=3',
-    'id' => '3',
-    'catid' => '17',
-    'listorder' => '3',
-  ),
-  '17-4' => 
-  array (
-    'title' => '星映话-《归来：洗尽铅华》',
-    'description' => '星映话-《归来：洗尽铅华》',
-    'inputtime' => '1400418967',
-    'style' => '',
-    'url' => 'http://www.cyznj.com/index.php?m=content&c=index&a=show&catid=17&id=4',
-    'id' => '4',
-    'catid' => '17',
-    'listorder' => '4',
+    'url' => 'http://www.cyznj.com/index.php?m=content&c=index&a=show&catid=11&id=6',
+    'id' => '6',
+    'catid' => '11',
+    'listorder' => '6',
   ),
   '11-12' => 
   array (
@@ -33,6 +23,29 @@ return array (
     'id' => '12',
     'catid' => '11',
     'listorder' => '12',
+  ),
+  '6-15' => 
+  array (
+    'title' => '[创新业务]：动态表单技术',
+    'description' => '如何快速的应对客户的需求，提供更好的业务响应能力，使用动态的元数据技术解决B S应用的动态表单技术。',
+    'inputtime' => '1405836207',
+    'style' => '',
+    'url' => 'http://www.cyznj.com/index.php?m=content&c=index&a=show&catid=6&id=15',
+    'id' => '15',
+    'catid' => '6',
+    'listorder' => '15',
+  ),
+  '6-18' => 
+  array (
+    'title' => '微志愿与单病种随访',
+    'description' => '微锤子借用微信平台，研发出微志愿管理平台；单病种随访系统，已经试运行，赞一个！',
+    'thumb' => 'http://www.cyznj.com/uploadfile/2014/0829/20140829034641720.png',
+    'inputtime' => '1409294379',
+    'style' => '#9900FF',
+    'url' => 'http://www.cyznj.com/index.php?m=content&c=index&a=show&catid=6&id=18',
+    'id' => '18',
+    'catid' => '6',
+    'listorder' => '18',
   ),
 );
 ?>

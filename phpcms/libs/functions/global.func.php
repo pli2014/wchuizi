@@ -104,7 +104,7 @@ function remove_xss($string) {
 			$pattern .= $parm[$i][$j]; 
 		}
 		$pattern .= '/i';
-		$string = preg_replace($pattern, '', $string); 
+		$string = preg_replace($pattern, ' ', $string); 
 	}
 	return $string;
 }

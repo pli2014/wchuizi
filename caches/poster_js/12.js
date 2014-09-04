@@ -1,6 +1,6 @@
 var links = new Array();
 var isIE=!!window.ActiveXObject;
-links[1] = "http://114.215.183.100:8080/index.php?m=poster&c=index&a=poster_click&siteid=1&id=24";
+links[1] = "http://www.cyznj.com/index.php?m=poster&c=index&a=poster_click&siteid=1&id=24";
 if (isIE){
 	if (document.readyState=="complete"){
 		statAD('1', '24', '12');
@@ -13,7 +13,7 @@ if (isIE){
 	statAD('1', '24', '12');
 }
 
-links[2] = "http://114.215.183.100:8080/index.php?m=poster&c=index&a=poster_click&siteid=1&id=23";
+links[2] = "http://www.cyznj.com/index.php?m=poster&c=index&a=poster_click&siteid=1&id=23";
 if (isIE){
 	if (document.readyState=="complete"){
 		statAD('1', '23', '12');
@@ -26,7 +26,7 @@ if (isIE){
 	statAD('1', '23', '12');
 }
 
-links[3] = "http://114.215.183.100:8080/index.php?m=poster&c=index&a=poster_click&siteid=1&id=22";
+links[3] = "http://www.cyznj.com/index.php?m=poster&c=index&a=poster_click&siteid=1&id=22";
 if (isIE){
 	if (document.readyState=="complete"){
 		statAD('1', '22', '12');
@@ -41,14 +41,14 @@ if (isIE){
 
 var imgs = new Array();
 for(var n = 1; n <= 5; n++) imgs[n] = new Image();
-imgs[1].src = "http://114.215.183.100:8080/uploadfile/2014/0429/20140429041252647.png";
-imgs[2].src = "http://114.215.183.100:8080/uploadfile/2014/0429/20140429041536585.png";
-imgs[3].src = "http://114.215.183.100:8080/uploadfile/2014/0429/20140429041606916.png";
+imgs[1].src = "http://www.cyznj.com/uploadfile/2014/0429/20140429041252647.png";
+imgs[2].src = "http://www.cyznj.com/uploadfile/2014/0429/20140429041536585.png";
+imgs[3].src = "http://www.cyznj.com/uploadfile/2014/0429/20140429041606916.png";
 var tits = new Array();
 tits[1] ="";
 tits[2] ="";
 tits[3] ="";
-var imgwidth = 460;//图片宽度
+var imgwidth = 400;//图片宽度
 var imgheight = 200;//图片宽度
 var str = "";
 str += "<span style='position:relative'>";
@@ -75,7 +75,7 @@ function SetAlpha(){
 
 function statAD(siteid, id, pid) {
 	var sp = document.createElement("SCRIPT");
-	sp.src = "http://114.215.183.100:8080/index.php?m=poster&c=index&a=show&siteid="+siteid+"&id="+id+"&spaceid="+pid;
+	sp.src = "http://www.cyznj.com/index.php?m=poster&c=index&a=show&siteid="+siteid+"&id="+id+"&spaceid="+pid;
 	document.body.appendChild(sp);
 }
 

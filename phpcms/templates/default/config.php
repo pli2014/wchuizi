@@ -87,10 +87,6 @@
       'test.html' => '',
       'text.html' => '文字广告',
     ),
-    'templates|default|announce' => 
-    array (
-      'show.html' => '内容页',
-    ),
     'templates|default|wap' => 
     array (
       'big_image.html' => '显示大图模板',
