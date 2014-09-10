@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=7" />
-<title>phpcmsV9 - <?php echo L('member','','member').L('manage_center');?></title>
+<title>微锤子 - <?php echo L('member','','member').L('manage_center');?></title>
 <link href="<?php echo CSS_PATH;?>reset.css" rel="stylesheet" type="text/css" />
 <link href="<?php echo CSS_PATH;?>table_form.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="<?php echo JS_PATH;?>jquery.min.js"></script>
@@ -34,7 +34,7 @@ $(function(){
 #header{ height:94px; background:url(<?php echo IMG_PATH;?>member/h.png) repeat-x}
 #header .logo{ padding-right:100px;float:left;background:url(<?php echo IMG_PATH;?>member/login-logo.png) no-repeat right 2px;}
 #header .content{width:920px; margin:auto; height:60px;padding:10px 0 0 0}
-#content{width:920px; margin:auto; padding:36px 0 0 0}
+#content{height:300px;width:920px; margin:auto; padding:36px 0 0 0}
 .form-login{ width:440px; padding-left:40px}
 .form-login h2{font-size:25px;color:#494949;border-bottom: 1px dashed #CCC;padding-bottom:3px; margin-bottom:10px}
 .form-login .input{ padding:7px 0}
@@ -79,12 +79,12 @@ $(function(){
 <body>
 <div id="header">
 	<div class="content">
-	<div class="logo"><a href="<?php echo $siteinfo['domain'];?>"><img src="<?php echo IMG_PATH;?>v9/logo.jpg"/></a></div>
+	<div class="logo"><a href="<?php echo $siteinfo['domain'];?>"><img style="width:120px;height:60px" src="<?php echo IMG_PATH;?>v9/logo.jpg"/></a></div>
     <span class="rt log"></span>
     </div>
 </div>
 <div id="content">
-<div class="col-left form-login" id="logindiv">
+<div class="col-left form-login" id="logindiv" style="display:none">
 <form method="post" action="" onsubmit="save_username();" id="myform" name="myform">
 <input type="hidden" name="forward" id="forward" value="<?php echo $forward;?>">
     	<h2><?php echo L('member').L('login');?></h2>
@@ -106,7 +106,7 @@ $(function(){
         	<div class="submit"><input type="button" name="register" value="<?php echo L('immediately').L('register');?>" onclick="redirect('<?php echo APP_PATH;?>index.php?m=member&c=index&a=register&siteid=<?php echo $siteid;?>')"></div></div>
 </form>
 </div>
-    <div class="col-auto">
+    <div class="form-login"" style="margin:auto;border:2px solid blue;">  
 			<?php if($setting['connect_enable']) { ?>
     		<div class="col-1">
             	<div class="content">
